@@ -2,9 +2,9 @@ manifestVersion: 1
 id: punk-paperless-ai
 category: ai
 name: Paperless AI
-version: "1.0.0"
-tagline: "Dokumentenmanagement mit KI-Unterstützung"
-description: >
+version: "3.0.7"
+tagline: Dokumentenmanagement mit KI-Unterstützung
+description: >-
   Paperless-AI kombiniert Dokumentenverwaltung mit einem integrierten KI-Assistenten. 
   Importiere, analysiere und suche Dokumente intelligent über ein lokales Webinterface.
 developer: clusterzx
@@ -13,7 +13,7 @@ repo: https://github.com/clusterzx/paperless-ai
 support: https://github.com/clusterzx/paperless-ai/issues
 port: 3000
 icon: https://clusterzx.github.io/paperless-ai/ppai_icon.png
-releaseNotes: >
+releaseNotes: >-
   Initiale Version der Paperless-AI Umbrel-App.
 dependencies: []
 path: ""

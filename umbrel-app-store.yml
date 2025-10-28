@@ -3,5 +3,5 @@ name: "Punks App Store"
 description: "Eigene Sammlung von Umbrel Apps, inklusive Paperless-AI."
 maintainer: "Punk9216"
 apps:
-  - "Punk-Paperless-AI"
+  - "punk-paperless-ai"
   - "sparkles-hello-world"

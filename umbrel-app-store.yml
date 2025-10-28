@@ -1,2 +1,7 @@
-id: "punk" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "Punk" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+id: "punk"
+name: "Punks App Store"
+description: "Eigene Sammlung von Umbrel Apps, inklusive Paperless-AI."
+maintainer: "Punk9216"
+apps:
+  - "Punk-Paperless-AI"
+  - "sparkles-hello-world"

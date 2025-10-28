@@ -13,7 +13,7 @@ website: https://github.com/clusterzx/paperless-ai
 repo: https://github.com/clusterzx/paperless-ai
 support: https://github.com/clusterzx/paperless-ai/issues
 port: 3000
-icon: https://avatars.githubusercontent.com/u/32274973?v=4&size=40
+icon: https://clusterzx.github.io/paperless-ai/ppai_icon.png
 releaseNotes: >
   Initiale Version der Paperless-AI Umbrel-App.
 dependencies: []

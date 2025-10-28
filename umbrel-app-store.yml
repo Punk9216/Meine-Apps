@@ -1,7 +1,2 @@
 id: "punk"
-name: "Punk"
-description: "Eigene Sammlung von Umbrel Apps, inklusive Paperless-AI."
-maintainer: "Punk9216"
-apps:
-  - "punk-paperless-ai"
-  - "sparkles-hello-world"
+name: "Punk's Apps"

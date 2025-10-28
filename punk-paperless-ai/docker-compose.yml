@@ -18,9 +18,4 @@ services:
       RAG_SERVICE_ENABLED: "true"
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
-    networks:
-      - app_network
-
-networks:
-  app_network:
-    driver: bridge
+    network_mode: bridge

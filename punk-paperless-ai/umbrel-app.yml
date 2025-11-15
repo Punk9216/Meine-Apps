@@ -8,14 +8,16 @@ description: >-
   Paperless-AI kombiniert Dokumentenverwaltung mit einem integrierten KI-Assistenten. 
   Importiere, analysiere und suche Dokumente intelligent über ein lokales Webinterface.
 releaseNotes: >-
-  ---
+  Initial Release.
 developer: clusterzx
 website: https://github.com/clusterzx/paperless-ai
+dependencies: []
 repo: https://github.com/clusterzx/paperless-ai
 support: https://github.com/clusterzx/paperless-ai/issues
 port: 3000
+gallery: []
 icon: https://clusterzx.github.io/paperless-ai/ppai_icon.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-dependencies: []
+

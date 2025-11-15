@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # App host + port leiten Requests über Umbrel Proxy
-      APP_HOST: punk-paperless-ai_1
+      APP_HOST: server
       APP_PORT: 3000
 
   server:

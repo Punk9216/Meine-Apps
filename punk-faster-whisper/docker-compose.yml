@@ -20,5 +20,5 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/config
     ports:
-      - 10300:10300
+      - 10301:10300
     restart: unless-stopped

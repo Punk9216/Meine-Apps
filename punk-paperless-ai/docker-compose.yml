@@ -10,8 +10,6 @@ services:
 
   server:
     image: clusterzx/paperless-ai
-    container_name: paperless-ai
-    network_mode: bridge
     restart: unless-stopped
     cap_drop:
       - ALL

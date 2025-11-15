@@ -12,6 +12,7 @@ releaseNotes: >-
 developer: clusterzx
 website: https://github.com/clusterzx/paperless-ai
 dependencies: []
+#  - paperless
 repo: https://github.com/clusterzx/paperless-ai
 support: https://github.com/clusterzx/paperless-ai/issues
 port: 3000

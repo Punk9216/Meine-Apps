@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: punk-faster-whisper
+category: ai
+name: Faster-Whisper
+version: "3.0.2-ls109"
+tagline: Faster-Whisper mit Wyoming Protocol Server
+description: >-
+  Faster-whisper is a reimplementation of OpenAIs Whisper model using CTranslate2,
+  which is a fast inference engine for Transformer models.
+  
+  This container provides a Wyoming protocol server for faster-whisper.
+releaseNotes: >-
+  Initial Release.
+developer: linuxserver.io
+website: ""
+dependencies: []
+repo: ""
+support: ""
+port: 10300
+gallery: []
+icon: https://avatars.githubusercontent.com/u/1520500?s=48&v=4
+path: ""
+defaultUsername: ""
+defaultPassword: ""

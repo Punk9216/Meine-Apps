@@ -10,7 +10,7 @@ description: >-
   
   This container provides a Wyoming protocol server for faster-whisper.
 releaseNotes: >-
-  Initial Release.
+  Bug fixed
 developer: linuxserver.io
 website: ""
 dependencies: []

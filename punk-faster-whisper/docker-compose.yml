@@ -9,7 +9,6 @@ services:
 
   server:
     image: lscr.io/linuxserver/faster-whisper:latest
-    container_name: faster-whisper
     environment:
       - PUID=1000
       - PGID=1000

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: punk-adguard-home
 category: networking
 name: AdGuard Home
-version: "0.107.69"
+version: "0.107.69-icon"
 tagline: Network-wide software for blocking ads and tracking
 description: >-
   ⚠️ See below for important set-up instructions.
@@ -27,6 +27,7 @@ releaseNotes: >-
   Full release notes can be found at https://github.com/AdguardTeam/AdGuardHome/releases
 developer: Adguard
 website: https://adguard.com/fr/adguard-home/overview.html
+icon: https://avatars.githubusercontent.com/u/8361145?s=48&v=4
 dependencies: []
 repo: https://github.com/AdguardTeam/AdGuardHome
 support: https://github.com/AdguardTeam/AdGuardHome/issues

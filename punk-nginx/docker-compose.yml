@@ -10,10 +10,6 @@ services:
       - ${APP_DATA_DIR}/data/npm-data:/data
       - ${APP_DATA_DIR}/data/letsencrypt:/etc/letsencrypt
     restart: unless-stopped
-    ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
 
 networks:
   macvlan_net:

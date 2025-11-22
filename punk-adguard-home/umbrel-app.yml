@@ -2,7 +2,7 @@ manifestVersion: 1
 id: punk-adguard-home
 category: networking
 name: AdGuard Home
-version: "0.107.69-icon"
+version: "0.107.69_1"
 tagline: Network-wide software for blocking ads and tracking
 description: >-
   ⚠️ See below for important set-up instructions.

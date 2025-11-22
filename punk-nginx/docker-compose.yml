@@ -5,7 +5,7 @@ services:
     image: jc21/nginx-proxy-manager:latest
     networks:
       macvlan_net:
-        ipv4_address: 192.168.178.121
+        ipv4_address: 192.168.178.181
     volumes:
       - ${APP_DATA_DIR}/data/npm-data:/data
       - ${APP_DATA_DIR}/data/letsencrypt:/etc/letsencrypt

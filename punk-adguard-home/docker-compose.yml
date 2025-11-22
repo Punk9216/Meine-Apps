@@ -8,7 +8,7 @@ services:
 
     networks:
       macvlan_net:
-        ipv4_address: 192.168.178.120
+        ipv4_address: 192.168.178.180
         
     volumes:
       - ${APP_DATA_DIR}/data/work:/opt/adguardhome/work

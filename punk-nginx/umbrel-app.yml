@@ -1,37 +1,49 @@
 manifestVersion: 1
-id: adguard-home
+id: punk-nginx
+name: Nginx Proxy Manager
+tagline: Expose your services easily and securely
 category: networking
-name: AdGuard Home
-version: "0.107.69"
-tagline: Network-wide software for blocking ads and tracking
-description: >-
-  ⚠️ See below for important set-up instructions.
-
-  
-  AdGuard Home is a comprehensive solution designed to block ads and tracking across all devices in your home network. As the world increasingly embraces the Internet of Things,
-  with a growing number of connected devices, maintaining control over your entire network is crucial. AdGuard Home empowers you to manage this with ease, ensuring a secure and
-  clutter-free browsing experience for every device under your roof.
-
-
-  🛠️ SET-UP INSTRUCTIONS
-
-  In the setup wizard, it is important to set the "Port" of the Admin Web Interface to 8095.
-  This ensures that the app will not conflict with other apps from the Umbrel App Store, and that the app will be accessible
-  when clicking on the app icon in the umbrelOS homescreen.
-releaseNotes: >-
-  This release includes bug fixes:
-    - Fixed DHCP settings not being saved
-    - Fixed DNS Rewrite edit modal not populating with correct values
-
-
-  Full release notes can be found at https://github.com/AdguardTeam/AdGuardHome/releases
-developer: Adguard
-website: https://adguard.com/fr/adguard-home/overview.html
-dependencies: []
-repo: https://github.com/AdguardTeam/AdGuardHome
-support: https://github.com/AdguardTeam/AdGuardHome/issues
+version: "2.13.5"
 port: []
+description: >-
+  Expose your apps to the internet easily and securely.
+
+
+  ⚠️ Be cautious when exposing apps to the public internet. Ensure they have proper security, such as login protection, and avoid exposing sensitive apps without adequate safeguards.
+  
+
+  🔧 Nginx Proxy Manager uses port 40080 for HTTP (unsecured) traffic and port 40443 for HTTPS (secured) traffic.
+  To make your apps accessible from the public internet, you will need to set up port forwarding on your router.
+  Forward external port 80 (HTTP) to internal port 40080 and external port 443 (HTTPS) to internal port 40443.
+  
+
+  🔍 Features:
+  
+    - Beautiful and Secure Admin Interface based on Tabler
+    - Easily create forwarding domains, redirections, streams and 404 hosts without knowing anything about Nginx
+    - Free SSL using Let's Encrypt or provide your own custom SSL certificates
+    - Access Lists and basic HTTP Authentication for your hosts
+    - Advanced Nginx configuration available for super users
+    - User management, permissions and audit log  
+developer: Jamie Curnow
+website: https://nginxproxymanager.com/
+repo: https://github.com/NginxProxyManager/nginx-proxy-manager
+support: https://github.com/NginxProxyManager/nginx-proxy-manager/issues
+icon: https://avatars.githubusercontent.com/u/88089605?s=48&v=4
 gallery: []
+releaseNotes: >-
+  This update includes several improvements and bug fixes.
+
+
+  Key highlights include:
+    - 🌎 Added support for Vietnamese, Italian, and Dutch languages
+    - 🌎 Updated translations for Polish, Russian, Slovak, and Chinese
+    - Fixed web crashes when viewing Custom Certificates
+    - Available upgrade notification
+    - Mobile interface improvements
+    - Translation improvements for Access List rules
+
+
+  Full release notes are available at https://github.com/NginxProxyManager/nginx-proxy-manager/releases
+dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""

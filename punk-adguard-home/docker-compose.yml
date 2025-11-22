@@ -1,1 +1,19 @@
+version: "3.9"
 
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    restart: unless-stopped
+
+    networks:
+      macvlan_net:
+        ipv4_address: 192.168.178.120
+        
+    volumes:
+      - ${APP_DATA_DIR}/data/work:/opt/adguardhome/work
+      - ${APP_DATA_DIR}/data/conf:/opt/adguardhome/conf
+
+networks:
+  macvlan_net:
+    external: true

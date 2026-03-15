@@ -2,7 +2,7 @@ manifestVersion: 1
 id: punk-faster-whisper
 category: ai
 name: Faster-Whisper
-version: "3.0.2-ls109"
+version: "v3.1.0-ls129"
 tagline: Faster-Whisper mit Wyoming Protocol Server
 description: >-
   Faster-whisper is a reimplementation of OpenAIs Whisper model using CTranslate2,

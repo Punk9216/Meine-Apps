@@ -2,7 +2,7 @@ manifestVersion: 1
 id: punk-faster-whisper
 category: ai
 name: Faster-Whisper
-version: "v3.1.0-ls129"
+version: "v3.1.0-ls135"
 tagline: Faster-Whisper mit Wyoming Protocol Server
 description: >-
   Faster-whisper is a reimplementation of OpenAIs Whisper model using CTranslate2,
@@ -10,7 +10,7 @@ description: >-
   
   This container provides a Wyoming protocol server for faster-whisper.
 releaseNotes: >-
-  Bug fixed_3
+  Upgraded to Model=base
 developer: linuxserver.io
 website: ""
 dependencies: []

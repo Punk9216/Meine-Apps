@@ -13,7 +13,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - WHISPER_MODEL=small-int8
+      - WHISPER_MODEL=base
       - LOCAL_ONLY= #optional
       - WHISPER_BEAM=1 #optional
       - WHISPER_LANG=de #optional

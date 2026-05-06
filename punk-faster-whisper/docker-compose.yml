@@ -1,11 +1,11 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
+#  app_proxy:
+#    environment:
       # App host + port leiten Requests über Umbrel Proxy
-      APP_HOST: punk-faster-whisper_server_1
-      APP_PORT: 10300
+#      APP_HOST: punk-faster-whisper_server_1
+#      APP_PORT: 10300
 
   server:
     image: lscr.io/linuxserver/faster-whisper:latest
